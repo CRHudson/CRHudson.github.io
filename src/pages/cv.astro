@@ -4,19 +4,18 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
+  {/* Profile Section */}
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
-
   <div class="mb-10 text-justify">
-Christopher R. Hudson is a Senior Research Engineer at the Center for Advanced Vehicular Systems (CAVS) and a Lecturer in the Department of Computer Science and Engineering at Mississippi State University. He holds a Ph.D. in Computer Science, a B.S. in Computer Science from UNC Pembroke, and an MBA with a focus on Project Management from Mississippi State University. Dr. Hudson’s research focuses on advancing off-road autonomous systems, multi-agent robotics, and precision field robotics for agricultural and defense applications. His work integrates ecological simulation, machine learning, and AI to improve autonomous navigation, enhance ground vehicle mobility forecasting, and drive robust system deployment in complex, unstructured environments. He is dedicated to bridging the gap between simulation and real-world operation, developing technologies that enable reliable autonomy in GPS-denied and dynamic terrains. As an educator and mentor, he leads interdisciplinary research projects and mentors students in robotic systems development, fostering innovation at the intersection of autonomy, AI, and field robotics.
-
+    I am a Senior Research Engineer at the Center for Advanced Vehicular Systems (CAVS) and a Lecturer in the Department of Computer Science and Engineering at Mississippi State University. I earned a Ph.D. in Computer Science, a B.S. in Computer Science from UNC Pembroke, and an MBA with a focus on Project Management from Mississippi State University. My research advances off‑road autonomous systems, multi‑agent robotics, and precision field robotics for agricultural and defense applications. By integrating ecological simulation, machine learning, and AI, I work to improve autonomous navigation, enhance ground‑vehicle mobility forecasting, and ensure robust system deployment in complex, unstructured environments. I am committed to bridging the gap between simulation and real‑world operation, developing technologies that deliver reliable autonomy in GPS‑denied and dynamic terrains. As an educator and mentor, I lead interdisciplinary research projects and guide students in robotic systems development, fostering innovation at the intersection of autonomy, AI, and field robotics.
   </div>
 
+  {/* Education Section */}
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
-
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
       title="Masters of Instructional Technology"
@@ -36,10 +35,10 @@ Christopher R. Hudson is a Senior Research Engineer at the Center for Advanced V
     />
   </div>
 
+  {/* Experience Section */}
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
   </div>
-
   <div class="time-line-container mb-10">
     <TimeLineElement
       title="Lecturer"
@@ -66,25 +65,205 @@ Christopher R. Hudson is a Senior Research Engineer at the Center for Advanced V
       subtitle="2014 - 2017 at CAVS, Mississippi State University"
     />
   </div>
-<!--
+
+  {/* Publications Section */}
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
+    <div class="text-3xl w-full font-bold">Publications</div>
+    <div class="text-sm">
+      h-index: 15&nbsp;&nbsp;&nbsp; i10-index: 21
+    </div>
+  </div>
+  <div class="mb-10 space-y-6">
+    {/* Journal Articles */}
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Journal Articles</h3>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Wheeler, W., Goodin, C., Carruth, D. W., Harvel, N., Ferguson, J., Monroe, J. G., &amp; McInnis, D. P. “Multi-domain modeling of environment and ecosystem of virtual off-road scenes for simulating ground vehicle autonomy.” <em>SIMULATION</em> (2024): 00375497241261412.
+      </p>
+      <p class="mb-2">
+        Rader, N. E., Heath, C., May, D. C., Gaddy, C., <strong>Hudson, C. R.</strong>, &amp; Carruth, D. “A Qualitative Examination of Precautionary Measures in a Virtual Reality Fear Environment.” <em>American Journal of Criminal Justice</em> (2024): 1–23.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Moore, M. N., Carruth, D. W., <strong>Hudson, C. R.</strong>, Cagle, L. D., &amp; Jayakumar, P. “An empirical vehicle speed model for tuning throttle controller parameters.” <em>International Journal of Vehicle Performance</em> 10, no. 2 (2024): 196–214.
+      </p>
+      <p class="mb-2">
+        Freeman, H. R., Chander, H., Kodithuwakku Arachchige, S. N. K., Turner, A. J., Jones, J. A., Pan, Z., <strong>Hudson, C. R.</strong>, &amp; Knight, A. C. “Postural Control Behavior in a Virtual Moving Room Paradigm.” <em>Biomechanics</em> 3, no. 4 (2023): 539–551.
+      </p>
+      <p class="mb-2">
+        Boone, J., Goodin, C., Dabbiru, L., <strong>Hudson, C. R.</strong>, Cagle, L., &amp; Carruth, D. (2022). “Training artificial intelligence algorithms with automatically labelled UAV data from physics-based simulation software.” <em>Applied Sciences</em> 13(1), 131.
+      </p>
+      <p class="mb-2">
+        Carruth, D., Goodin, C., Dabbiru, L., Scherrer, N., Moore, M., <strong>Hudson, C. R.</strong>, Cagle, L., &amp; Jayakumar, P. “Measuring the Influence of Environmental Factors on Obstacle Detection and Avoidance with an Autonomous Ground Vehicle.” (2022) <em>Journal of Field Robotics</em>.
+      </p>
+      <p class="mb-2">
+        Chander, H., Freeman, H. R., Hill, C. M., <strong>Hudson, C. R.</strong>, Kodithuwakku Arachchige, S. N. K., Turner, A. J., Jones, J. A., &amp; Knight, A. C. (2022). “The Walls Are Closing in: Postural Responses to a Virtual Reality Claustrophobic Simulation.” <em>Clinical and Translational Neuroscience</em> 6(2), 15.
+      </p>
+      <p class="mb-2">
+        Sharma, S., Dabbiru, L., Hannis, T., Mason, G., Carruth, D., Doude, M., Goodin, C., <strong>Hudson, C. R.</strong>, Ozier, S., Ball, J. E., &amp; Tang, B. (2022). “CaT: CAVS Traversability Dataset for Off-Road Autonomous Driving.” <em>IEEE Access</em> 10, pp.24759–24768.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Carrillo, J., Monroe, J. G., Carruth, D. W., &amp; <strong>Hudson, C. R.</strong> (2021). “An analytic model for negative obstacle detection with lidar and numerical validation using physics-based simulation.” <em>Sensors</em> 21(9), 3211.
+      </p>
+      <p class="mb-2">
+        Chander, H., Shojaei, A., Deb, S., Kodithuwakku Arachchige, S. N. K., <strong>Hudson, C. R.</strong>, Knight, A. C., &amp; Carruth, D. W. (2021). “Impact of Virtual Reality–Generated Construction Environments at Different Heights on Postural Stability and Fall Risk.” <em>Workplace Health &amp; Safety</em> 69(1), 32–40.
+      </p>
+      <p class="mb-2">
+        Deb, S., Carruth, D. W., &amp; <strong>Hudson, C. R.</strong> (2020). “How communicating features can help pedestrian safety in the presence of self-driving vehicles: virtual reality experiment.” <em>IEEE Transactions on Human-Machine Systems</em> 50(2), 176–186.
+      </p>
+      <p class="mb-2">
+        Cole, M., Lucas, C., Kulkarni, K., Carruth, D. W., <strong>Hudson, C. R.</strong>, Jayakumar, P., &amp; Gorsich, D. (2020). “Quantitative assessment of modelling and simulation tools for autonomous navigation of military vehicles over off-road terrains.” <em>International Journal of Vehicle Performance</em> 6(3), 327–355.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Carruth, D. W., Doude, M., &amp; <strong>Hudson, C. R.</strong> (2019). “Predicting the Influence of Rain on LIDAR in ADAS.” <em>Electronics</em> 8(1), 89.
+      </p>
+      <p class="mb-2">
+        Chander, H., Kodithuwakku Arachchige, S. N. K., Hill, C. M., Turner, A. J., Deb, S., Shojaei, A., <strong>Hudson, C. R.</strong>, Knight, A. C., &amp; Carruth, D. W. “Virtual-Reality-Induced Visual Perturbations Impact Postural Control System Behavior.” <em>Behavioral Sciences</em> 9, no. 11 (2019): 113.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Doude, M., <strong>Hudson, C. R.</strong>, &amp; Carruth, D. W. (2018). “Enabling off-road autonomous navigation—simulation of LIDAR in dense vegetation.” <em>Electronics</em> 7(9), 154.
+      </p>
+    </div>
+
+    {/* Book Chapters */}
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Book Chapters</h3>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Deb, S., Carruth, D. W., Frey, D., &amp; McGinley, J. (2018). Pedestrian Perception of Autonomous Vehicles with External Interacting Features. <em>Advances in Human Factors and Systems Interaction</em>. Springer. DOI:10.1007/978-3-319-94334-3_5.
+      </p>
+    </div>
+
+    {/* Peer-Reviewed Conference Abstracts */}
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Peer-Reviewed Conference Abstracts</h3>
+      <p class="mb-2">
+        Mason, G. L., Carruth, D. W., <strong>Hudson, C. R.</strong>, Jones, R. A., Cole, M. P., Smith, W., &amp; Jayakumar, P. (2018). “Test Operation Procedures for Autonomous MRZR.” <em>Military Operations Research Society (MORS) 86th annual symposium</em>. Monterey, CA; Naval Postgraduate School.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, &amp; Bethel, C. L. “Stress Factors that Impact Robot Operator Control in High-Stress Dynamic Scenarios.” <em>Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction</em>. ACM, 2018.
+      </p>
+    </div>
+
+    {/* Peer-Reviewed Conference Papers */}
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Peer-Reviewed Conference Papers</h3>
+      <p class="mb-2">
+        McGee, M., Clayton, C., Victory, A., <strong>Hudson, C.</strong>, &amp; Hardin, C. (2024). “Advancing Precision Livestock Management in the Dairy Industry: An Early Exploration of Individual Cow Tracking Using YOLOv5-Based Computer Vision.” (ASAS Southern Section).
+      </p>
+      <p class="mb-2">
+        Clayton, C., Victory, A., Graves, K., Griffin, A., <strong>Hudson, C.</strong>, &amp; McGee, M. (2024). “420 Automated identification and behavioral estrus detection in freestall-housed dairy cows using computer vision and machine learning: A two-layered algorithm approach.” <em>Journal of Animal Science</em>, 102(Supplement_3), pp.4–5.
+      </p>
+      {/* Add additional conference papers here following the same structure */}
+      <p class="mb-2">
+        Rogers III, J. H., Sellers, T., Lei, T., <strong>Hudson, C. R.</strong>, &amp; Luo, C. (2024). “Centroid-based cell decomposition robot path planning algorithm integrated with a bio-inspired approach.” In <em>Unmanned Systems Technology XXVI</em>, vol. 13055, pp. 43–51. SPIE.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Moore, M. N., Carruth, D. W., <strong>Hudson, C. R.</strong>, Cagle, L. D., Wapnick, S., &amp; Jayakumar, P. (2024). “The NATURE autonomy stack: an open-source stack for off-road navigation.” In <em>Unmanned Systems Technology XXVI</em>, vol. 13055, pp. 8–17. SPIE.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Dabbiru, L., <strong>Hudson, C.</strong>, Mason, G., Carruth, D., &amp; Doude, M. (2021, April). “Fast terrain traversability estimation with terrestrial lidar in off-road autonomous navigation.” In <em>Unmanned Systems Technology XXIII</em> (Vol. 11758, pp. 189–199). SPIE.
+      </p>
+      <p class="mb-2">
+        Dabbiru, L., Sharma, S., Goodin, C., Ozier, S., <strong>Hudson, C.</strong>, Carruth, D., … &amp; Ball, J. (2021, April). “Traversability mapping in off-road environment using semantic segmentation.” In <em>Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2021</em> (Vol. 11748, pp. 78–83). SPIE.
+      </p>
+      <p class="mb-2">
+        Pleva, M., Ondas, S., Juhar, J., <strong>Hudson, C. R.</strong>, Carruth, D. W., &amp; Bethel, C. L. (2020, September). “Non-native vs Native English Speakers User Experience in HMD vs Desktop Immersive Training.” In <em>2020 11th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)</em> (pp. 000051–000054). IEEE.
+      </p>
+      <p class="mb-2">
+        Carruth, D. W., <strong>Hudson, C.</strong>, Fox, A. A., &amp; Deb, S. (2020, July). “User interface for an immersive virtual reality greenhouse for training precision agriculture.” In <em>International Conference on Human-Computer Interaction</em> (pp. 35–46). Springer, Cham.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Deb, S., Goodin, C., &amp; Carruth, D. W. (2020, July). “Using VR Generated Pedestrian Behaviors in Autonomous Vehicle Simulations.” In <em>International Conference on Applied Human Factors and Ergonomics</em> (pp. 303–308). Springer, Cham.
+      </p>
+      <p class="mb-2">
+        Sharma, S., <strong>Hudson, C.</strong>, Carruth, D., Doude, M., Ball, J. E., Tang, B., … &amp; Dabbiru, L. (2020, April). “Performance analysis of semantic segmentation algorithms trained with JPEG compressed datasets.” In <em>Real-Time Image Processing and Deep Learning 2020</em> (Vol. 11401, p. 1140104). SPIE.
+      </p>
+      <p class="mb-2">
+        Sharma, S., Goodin, C., Doude, M., <strong>Hudson, C.</strong>, Carruth, D., Tang, B., &amp; Ball, J. (2020). “Understanding how rain affects semantic segmentation algorithm performance.” (No. 2020-01-0092). <em>SAE Technical Paper</em>.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C.</strong>, Goodin, C., Miller, Z., Wheeler, W., &amp; Carruth, D. (2020). “Mississippi State University Autonomous Vehicle Simulation Library.” In <em>Proceedings of the Ground Vehicle Systems Engineering and Technology Symposium</em> (pp. 11–13).
+      </p>
+      <p class="mb-2">
+        Moore, M., Ray, P., Goodin, C., <strong>Hudson, C.</strong>, Doude, M., Carruth, D., Ewing, M., &amp; Towne, B. (2020). “Exploring the requirements and capabilities of off-road simulation in MAVS and Gazebo.” In <em>2020 NDIA Ground Vehicle Systems Engineering and Technology Symposium</em>.
+      </p>
+      <p class="mb-2">
+        Goodin, C., Sharma, S., Doude, M., Carruth, D., Dabbiru, L., &amp; <strong>Hudson, C.</strong> (2019). “Training of Neural Networks with Automated Labeling of Simulated Sensor Data.” (No. 2019-01-0120). <em>SAE Technical Paper</em>.
+      </p>
+      <p class="mb-2">
+        Pleva, M., Juhar, J., Ondas, S., <strong>Hudson, C. R.</strong>, Bethel, C. L., &amp; Carruth, D. W. (2019, April). “Novice User Experiences with a Voice-Enabled Human-Robot Interaction Tool.” In <em>2019 29th International Conference Radioelektronika (RADIOELEKTRONIKA)</em> (pp. 1–5). IEEE.
+      </p>
+      <p class="mb-2">
+        Meadows, W., <strong>Hudson, C.</strong>, Goodin, C., Dabbiru, L., Powell, B., Doude, M., … &amp; Tang, B. (2019, May). “Multi-LiDAR placement, calibration, co-registration, and processing on a Subaru Forester for off-road autonomous vehicles operations.” In <em>Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2019</em> (Vol. 11009, p. 110090J). International Society for Optics and Photonics.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Lucius, R., Gray, R., Powell, B., Doude, M., &amp; Carruth, D. W. (2019, July). “Using Simulation to Accelerate Development of User Interfaces for Autonomous Vehicles.” In <em>International Conference on Human-Computer Interaction</em> (pp. 344–350). Springer, Cham.
+      </p>
+      <p class="mb-2">
+        Carruth, D. W., <strong>Hudson, C. R.</strong>, Bethel, C. L., Pleva, M., Ondas, S., &amp; Juhar, J. (2019, July). “Using HMD for Immersive Training of Voice-Based Operation of Small Unmanned Ground Vehicles.” In <em>International Conference on Human-Computer Interaction</em> (pp. 34–46). Springer, Cham.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Bethel, C. L., Carruth, D. W., Pleva, M., Juhar, J., &amp; Ondas, S. (2018). “Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction.” <em>World Symposium on Digital Intelligence for Systems and Machines DISA 2018</em>. Technical University of Košice, Slovakia.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Goodin, C. T., Doude, M., &amp; Carruth, D. W. (2018). “Analysis of Dual LIDAR Placement for Off-Road Autonomy Using MAVS.” <em>World Symposium on Digital Intelligence for Systems and Machines DISA 2018</em>. Technical University of Košice, Slovakia.
+      </p>
+      <p class="mb-2">
+        Deb, S., <strong>Hudson, C. R.</strong>, Carruth, D. W., &amp; Frey, D. (2018). “Pedestrians Receptivity in Autonomous Vehicles: Exploring a Video-based Assessment.” <em>Human Factors and Ergonomics Society’s 2018 International Annual Meeting</em>.
+      </p>
+      <p class="mb-2">
+        Davis, M., Cagle, L. D., Morgan, C., <strong>Hudson, C. R.</strong>, Ball, J. E., Anderson, D., Bethel, C. L., Liu, Y., Gafford, J., &amp; LeClair, A. M. (2018). “Hydra: A Modular, Universal Multisensory Data Collection System.” <em>SPIE DCS Defense and Security Program and Symposium</em>. Orlando, FL.
+      </p>
+      <p class="mb-2">
+        <strong>Hudson, C. R.</strong>, Bethel, C. L., Carruth, D. W., Pleva, M., Juhar, M., &amp; Ondas, S. (2017). “Training Tool for Speech Driven Human-Robot Interaction Applications.” <em>15th International Conference on Emerging eLearning Technologies and Applications (ICETA 2017)</em>. The High Tatras, Slovakia.
+      </p>
+    </div>
+
+    {/* Oral and Poster Presentations */}
+    <div>
+      <h3 class="font-semibold text-xl mb-2">Oral and Poster Presentations</h3>
+      <p class="mb-2">
+        <span class="font-bold">2024 – Digital Innovations</span> – Tupelo, MS<br />
+        Oral Presentation: Conquering Off-Road Autonomy: Exploring the Technology behind Mississippi State University’s Off-road Autonomous Ground Vehicles.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2022 – ISTVS</span> – Montreal, Canada<br />
+        Oral Presentation: Forest Traversal Speed Made Good Prediction Models, Simulation vs. Analytical Approaches.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2020 – GVSETS</span> – Virtual Conference<br />
+        Oral Presentation: Mississippi State University Autonomous Vehicle Simulation Library.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2020 – AHFE</span> – San Diego, CA<br />
+        Oral Presentation (*Remote): Using VR Generated Pedestrian Behaviors in Autonomous Vehicle Simulations.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2019 – HCII</span> – Orlando, FL<br />
+        Poster Presentation: Using Simulation to Accelerate Development of User Interfaces for Autonomous Vehicles.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2018 – DISA</span> – Kosice, Slovakia<br />
+        Oral Presentations: Analysis of Dual LIDAR Placement for Off-Road Autonomy Using MAVS. Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2018 – HRI</span> – Chicago, IL<br />
+        Poster Presentation: Stress Factors that Impact Robot Operator Control in High-Stress Dynamic Scenarios.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2017 – ICETA</span> – High Tatras, Slovakia<br />
+        Oral Presentation: Development of a Training Tool for Speech Driven Human-Robot Interaction Applications presented at the 15th International Conference on Emerging eLearning Technologies and Applications (ICETA 2017), October 26–27, 2017.
+      </p>
+      <p class="mb-2">
+        <span class="font-bold">2017 – Association of Chiefs of Police Winter Conference</span> – Starkville, MS<br />
+        Oral Presentation: Presented Research Applications in Human-Robot Interaction at the Mississippi Association of Chiefs of Police Winter Conference, December 13, 2017.
+      </p>
+    </div>
   </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank">Advanced Vehicle Systems Research Certification (Placeholder - Add Link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank">Human-Computer Interaction Specialist Certification (Placeholder - Add Link)</a>
-    </li>
-  </ul>
-  -->
-
+  {/* Skills Section */}
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
-
   <ul class="list-disc md:columns-5 columns-2 mx-6">
     <li>C++</li>
     <li>C#/.NET</li>
