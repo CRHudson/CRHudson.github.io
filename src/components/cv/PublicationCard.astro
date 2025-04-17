@@ -3,10 +3,11 @@
 const { publication } = Astro.props;
 ---
 
-{publication.pdfUrl ? (
+{publication.pdfUrl && publication.pdfUrl.trim() !== '' ? (
   <a
     href={publication.pdfUrl}
     target="_blank"
+    rel="noopener noreferrer"
     class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-lg hover:border-gray-300 hover:bg-gray-100 transition cursor-pointer"
   >
     <h3 class="text-xl font-semibold text-gray-900 mb-1">
@@ -21,7 +22,7 @@ const { publication } = Astro.props;
   </a>
 ) : (
   <div
-    class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm transition"
+    class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm transition cursor-default"
   >
     <h3 class="text-xl font-semibold text-gray-900 mb-1">
       {publication.title}
