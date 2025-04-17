@@ -3,46 +3,40 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title="Projects" sideBarActiveItemID="services">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Teaching Header</div>
+<BaseLayout title="Teaching" sideBarActiveItemID="services">
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold">Teaching & Academic Impact</h1>
+    <p class="mt-2 text-gray-600 max-w-xl">
+      Engaging students through core courses, targeted guest lectures, and hands‑on project mentorship.
+    </p>
   </div>
-{/* Teaching Overview */}
-  <div class="mb-5">
-    <div class="text-3xl font-bold">Teaching & Academic Impact</div>
-  </div>
-  <div class="space-y-8 mb-10">
-    {/* CSE 2383 */}
-    <article>
-      <h3 class="text-2xl font-semibold">CSE 2383 – Data Structures & Algorithm Analysis</h3>
-      <p class="mt-1 text-sm text-gray-600">Instructor: Spring 2023 – Fall 2025</p>
-      <ul class="list-disc ml-6 mt-2">
-        <li>Designed and delivered lectures on core data structures (lists, trees, graphs) and algorithm analysis (Big O notation, complexity).</li>
-        <li>Developed programming assignments and projects to reinforce abstract concepts with hands-on practice in C++ and Java.</li>
-        <li>Provided individualized feedback and held office hours to support student success in a foundational computer science course.</li>
-      </ul>
-    </article>
 
-    {/* Guest Lectures */}
-    <article>
-      <h3 class="text-2xl font-semibold">PSS 4411/6411 – Remote Sensing Seminar</h3>
-      <p class="mt-1 text-sm text-gray-600">Guest Lecturer: Fall 2022, Fall 2023, Fall 2024</p>
-      <ul class="list-disc ml-6 mt-2">
-        <li>Delivered interdisciplinary seminars on autonomous systems integration in remote sensing and field data collection.</li>
-        <li>Introduced advanced topics such as LiDAR-based mapping, environmental factor modeling, and autonomous vehicle applications.</li>
-        <li>Engaged graduate and undergraduate students in critical discussions bridging engineering, ecology, and geospatial analysis.</li>
-      </ul>
-    </article>
+  <div class="grid gap-6 md:grid-cols-2">
+    <!-- Data Structures (no description, so we still pass an empty one) -->
+    <HorizontalCard
+      title="CSE 2383 – Data Structures & Algorithm Analysis"
+      img="/assets/icons/data-structures.svg"
+      url="#"
+      desc=""
+      tags={['Spring 2023','Fall 2023','Spring 2024','Fall 2024','Spring 2025']}
+    />
 
-    {/* CSE 4663 */}
-    <article>
-      <h3 class="text-2xl font-semibold">CSE 4663 – Human-Computer Interaction Projects</h3>
-      <p class="mt-1 text-sm text-gray-600">Co‑Adviser: Fall 2024</p>
-      <ul class="list-disc ml-6 mt-2">
-        <li>Co‑advised student teams developing user interfaces on the Mississippi Autonomous Vehicle Simulator (MAVS).</li>
-        <li>Guided usability design, prototyping, and user testing to ensure intuitive controls for robotic systems.</li>
-        <li>Mentored students on project management, design thinking, and interdisciplinary collaboration.</li>
-      </ul>
-    </article>
+    <!-- Remote Sensing Seminar (with real description) -->
+    <HorizontalCard
+      title="PSS 4411/6411 – Remote Sensing Seminar"
+      img="/assets/icons/remote-sensing.svg"
+      url="#"
+      desc="Delivered seminars on integrating autonomous systems with field data collection, covering LiDAR mapping, ecological modeling, and vehicle applications."
+      tags={['Fall 2022','Fall 2023','Fall 2024']}
+    />
+
+    <!-- HCI Projects (also needs desc even though blank) -->
+    <HorizontalCard
+      title="CSE 4663 – Human‑Computer Interaction Projects"
+      img="/assets/icons/hci.svg"
+      url="#"
+      desc=""
+      tags={['Fall 2024']}
+    />
   </div>
 </BaseLayout>
