@@ -1,0 +1,112 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PublicationCard from "../components/cv/PublicationCard.astro";
+import {
+  journalArticles,
+  bookChapters,
+  conferenceAbstracts,
+  conferencePapers,
+  presentations
+} from "../data/publications.js";
+
+// group by year helper
+function groupByYear(arr) {
+  return arr.reduce((acc, pub) => {
+    const year = pub.year;
+    (acc[year] ||= []).push(pub);
+    return acc;
+  }, {});
+}
+
+const grouped = {
+  journal: groupByYear(journalArticles),
+  books:  groupByYear(bookChapters),
+  abstracts: groupByYear(conferenceAbstracts),
+  papers: groupByYear(conferencePapers),
+  talks: groupByYear(presentations),
+};
+
+const sortYearsDesc = (a, b) => parseInt(b) - parseInt(a);
+---
+
+<BaseLayout title="Publications" sideBarActiveItemID="publications">
+  <div class="mb-5">
+    <div class="text-3xl font-bold">Publications</div>
+    <div class="text-sm">h‑index: 15  i10‑index: 21</div>
+  </div>
+
+  {/* Journal Articles */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Journal Articles</h2>
+    {Object.keys(grouped.journal).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
+        <h3 class="text-xl font-bold mb-2">{year}</h3>
+        <div class="grid grid-cols-1 gap-4">
+          {grouped.journal[year].map(pub => (
+            <PublicationCard publication={pub} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  {/* Book Chapters */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Book Chapters</h2>
+    {Object.keys(grouped.books).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
+        <h3 class="text-xl font-bold mb-2">{year}</h3>
+        <div class="grid grid-cols-1 gap-4">
+          {grouped.books[year].map(pub => (
+            <PublicationCard publication={pub} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  {/* Conference Abstracts */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Peer‑Reviewed Conference Abstracts</h2>
+    {Object.keys(grouped.abstracts).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
+        <h3 class="text-xl font-bold mb-2">{year}</h3>
+        <div class="grid grid-cols-1 gap-4">
+          {grouped.abstracts[year].map(pub => (
+            <PublicationCard publication={pub} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  {/* Conference Papers */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Peer‑Reviewed Conference Papers</h2>
+    {Object.keys(grouped.papers).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
+        <h3 class="text-xl font-bold mb-2">{year}</h3>
+        <div class="grid grid-cols-1 gap-4">
+          {grouped.papers[year].map(pub => (
+            <PublicationCard publication={pub} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  {/* Presentations */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Oral & Poster Presentations</h2>
+    {Object.keys(grouped.talks).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
+        <h3 class="text-xl font-bold mb-2">{year}</h3>
+        <div class="grid grid-cols-1 gap-4">
+          {grouped.talks[year].map(pub => (
+            <PublicationCard publication={pub} clickable={false} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
