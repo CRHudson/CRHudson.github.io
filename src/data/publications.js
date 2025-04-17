@@ -8,7 +8,7 @@ export const journalArticles = [
       "Hudson, C. R., Wheeler, W., Goodin, C., Carruth, D. W., Harvel, N., Ferguson, J., Monroe, J. G., McInnis, D. P.",
     venue: "SIMULATION",
     year: "2024",
-    pdfUrl: "/pdfs/multi-domain-modeling.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:maZDTaKrznsC"
   },
   {
     title:
@@ -17,7 +17,7 @@ export const journalArticles = [
       "Rader, N. E., Heath, C., May, D. C., Gaddy, C., Hudson, C. R., Carruth, D.",
     venue: "American Journal of Criminal Justice",
     year: "2024",
-    pdfUrl: "/pdfs/qualitative-examination.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:k_IJM867U9cC"
   },
   {
     title:
@@ -26,7 +26,7 @@ export const journalArticles = [
       "Goodin, C., Moore, M. N., Carruth, D. W., Hudson, C. R., Cagle, L. D., Jayakumar, P.",
     venue: "International Journal of Vehicle Performance",
     year: "2024",
-    pdfUrl: "/pdfs/vehicle-speed-model.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:bEWYMUwI8FkC"
   },
   {
     title:
@@ -35,7 +35,7 @@ export const journalArticles = [
       "Freeman, H. R., Chander, H., Kodithuwakku Arachchige, S. N. K., Turner, A. J., Jones, J. A., Pan, Z., Hudson, C. R., Knight, A. C.",
     venue: "Biomechanics",
     year: "2023",
-    pdfUrl: "/pdfs/postural-control.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:r0BpntZqJG4C"
   },
   {
     title:
@@ -44,7 +44,7 @@ export const journalArticles = [
       "Boone, J., Goodin, C., Dabbiru, L., Hudson, C. R., Cagle, L., Carruth, D.",
     venue: "Applied Sciences, 13(1)",
     year: "2022",
-    pdfUrl: "/pdfs/ai-algorithms.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:4JMBOYKVnBMC"
   },
   {
     title:
@@ -62,7 +62,7 @@ export const journalArticles = [
       "Chander, H., Freeman, H. R., Hill, C. M., Hudson, C. R., Kodithuwakku Arachchige, S. N. K., Turner, A. J., Jones, J. A., Knight, A. C.",
     venue: "Clinical and Translational Neuroscience, 6(2)",
     year: "2022",
-    pdfUrl: "/pdfs/walls-closing.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:RHpTSmoSYBkC"
   },
   {
     title:
@@ -71,7 +71,7 @@ export const journalArticles = [
       "Sharma, S., Dabbiru, L., Hannis, T., Mason, G., Carruth, D., Doude, M., Goodin, C., Hudson, C. R., Ozier, S., Ball, J. E., Tang, B.",
     venue: "IEEE Access, 10",
     year: "2022",
-    pdfUrl: "/pdfs/cat-dataset.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:e5wmG9Sq2KIC"
   },
   {
     title:
@@ -80,7 +80,7 @@ export const journalArticles = [
       "Goodin, C., Carrillo, J., Monroe, J. G., Carruth, D. W., Hudson, C. R.",
     venue: "Sensors, 21(9)",
     year: "2021",
-    pdfUrl: "/pdfs/analytic-model.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:R3hNpaxXUhUC"
   },
   {
     title:
@@ -89,7 +89,7 @@ export const journalArticles = [
       "Chander, H., Shojaei, A., Deb, S., Kodithuwakku Arachchige, S. N. K., Hudson, C. R., Knight, A. C., Carruth, D. W.",
     venue: "Workplace Health & Safety, 69(1)",
     year: "2021",
-    pdfUrl: "/pdfs/impact-vr.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:IWHjjKOFINEC"
   },
   {
     title:
@@ -98,7 +98,7 @@ export const journalArticles = [
       "Deb, S., Carruth, D. W., Hudson, C. R.",
     venue: "IEEE Transactions on Human-Machine Systems, 50(2)",
     year: "2020",
-    pdfUrl: "/pdfs/communicating-features.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:dhFuZR0502QC"
   },
   {
     title:
@@ -107,7 +107,7 @@ export const journalArticles = [
       "Cole, M., Lucas, C., Kulkarni, K., Carruth, D. W., Hudson, C. R., Jayakumar, P., Gorsich, D.",
     venue: "International Journal of Vehicle Performance, 6(3)",
     year: "2020",
-    pdfUrl: "/pdfs/quantitative-assessment.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:qUcmZB5y_30C"
   },
   {
     title:
@@ -116,7 +116,7 @@ export const journalArticles = [
       "Goodin, C., Carruth, D. W., Doude, M., Hudson, C. R.",
     venue: "Electronics, 8(1)",
     year: "2019",
-    pdfUrl: "/pdfs/predicting-rain.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:5nxA0vEk-isC"
   },
   {
     title:
@@ -125,7 +125,7 @@ export const journalArticles = [
       "Chander, H., Kodithuwakku Arachchige, S. N. K., Hill, C. M., Turner, A. J., Deb, S., Shojaei, A., Hudson, C. R., Knight, A. C., Carruth, D. W.",
     venue: "Behavioral Sciences, 9 (no. 11)",
     year: "2019",
-    pdfUrl: "/pdfs/vr-induced-perturbations.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:9ZlFYXVOiuMC"
   },
   {
     title:
@@ -134,7 +134,7 @@ export const journalArticles = [
       "Goodin, C., Doude, M., Hudson, C. R., Carruth, D. W.",
     venue: "Electronics, 7(9)",
     year: "2018",
-    pdfUrl: "/pdfs/enabling-off-road.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:LkGwnXOMwfcC"
   }
 ];
 
@@ -147,7 +147,7 @@ export const bookChapters = [
     venue:
       "Advances in Human Factors and Systems Interaction. Springer. DOI:10.1007/978-3-319-94334-3_5",
     year: "2018",
-    pdfUrl: "/pdfs/pedestrian-perception.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:WF5omc3nYNoC"
   }
 ];
 
@@ -203,7 +203,7 @@ export const conferencePapers = [
     venue:
       "Unmanned Systems Technology XXVI, vol. 13055, pp. 43–51, SPIE",
     year: "2024",
-    pdfUrl: "/pdfs/centroid-cell-decomposition.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:isC4tDSrTZIC"
   },
   {
     title:
@@ -213,7 +213,7 @@ export const conferencePapers = [
     venue:
       "Unmanned Systems Technology XXVI, vol. 13055, pp. 8–17, SPIE",
     year: "2024",
-    pdfUrl: "/pdfs/nature-autonomy-stack.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:TFP_iSt0sucC"
   },
   {
     title:
@@ -223,7 +223,7 @@ export const conferencePapers = [
     venue:
       "Unmanned Systems Technology XXIII, Vol. 11758, pp. 189–199, SPIE",
     year: "2021",
-    pdfUrl: "/pdfs/terrain-traversability.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:TQgYirikUcIC"
   },
   {
     title:
@@ -233,7 +233,7 @@ export const conferencePapers = [
     venue:
       "Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2021, Vol. 11748, pp. 78–83, SPIE",
     year: "2021",
-    pdfUrl: "/pdfs/traversability-mapping.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:HDshCWvjkbEC"
   },
   {
     title:
@@ -243,7 +243,7 @@ export const conferencePapers = [
     venue:
       "2020 11th IEEE International Conference on Cognitive Infocommunications (CogInfoCom), pp. 000051–000054, IEEE",
     year: "2020",
-    pdfUrl: "/pdfs/immersive-training.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:hC7cP41nSMkC"
   },
   {
     title:
@@ -253,7 +253,7 @@ export const conferencePapers = [
     venue:
       "International Conference on Human-Computer Interaction, pp. 35–46, Springer, Cham",
     year: "2020",
-    pdfUrl: "/pdfs/immersive-greenhouse.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:ZeXyd9-uunAC"
   },
   {
     title:
@@ -263,7 +263,7 @@ export const conferencePapers = [
     venue:
       "International Conference on Applied Human Factors and Ergonomics, pp. 303–308, Springer, Cham",
     year: "2020",
-    pdfUrl: "/pdfs/vr-pedestrian-behaviors.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:L8Ckcad2t8MC"
   },
   {
     title:
@@ -273,7 +273,7 @@ export const conferencePapers = [
     venue:
       "Real-Time Image Processing and Deep Learning 2020, Vol. 11401, p. 1140104, SPIE",
     year: "2020",
-    pdfUrl: "/pdfs/semantic-segmentation.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:7PzlFSSx8tAC"
   },
   {
     title:
@@ -283,7 +283,7 @@ export const conferencePapers = [
     venue:
       "SAE Technical Paper, No. 2020-01-0092",
     year: "2020",
-    pdfUrl: "/pdfs/rain-effects.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:QIV2ME_5wuYC"
   },
   {
     title:
@@ -293,7 +293,7 @@ export const conferencePapers = [
     venue:
       "Proceedings of the Ground Vehicle Systems Engineering and Technology Symposium, pp. 11–13",
     year: "2020",
-    pdfUrl: "/pdfs/simulation-library.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:hFOr9nPyWt4C"
   },
   {
     title:
@@ -303,7 +303,7 @@ export const conferencePapers = [
     venue:
       "2020 NDIA Ground Vehicle Systems Engineering and Technology Symposium",
     year: "2020",
-    pdfUrl: "/pdfs/off-road-simulation.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:mB3voiENLucC"
   },
   {
     title:
@@ -313,7 +313,7 @@ export const conferencePapers = [
     venue:
       "SAE Technical Paper, No. 2019-01-0120",
     year: "2019",
-    pdfUrl: "/pdfs/nn-automated-labeling.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:0EnyYjriUFMC"
   },
   {
     title:
@@ -323,7 +323,7 @@ export const conferencePapers = [
     venue:
       "2019 29th International Conference Radioelektronika (RADIOELEKTRONIKA), pp. 1–5, IEEE",
     year: "2019",
-    pdfUrl: "/pdfs/voice-enabled-hri.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:aqlVkmm33-oC"
   },
   {
     title:
@@ -333,7 +333,7 @@ export const conferencePapers = [
     venue:
       "Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2019, Vol. 11009, p. 110090J, International Society for Optics and Photonics",
     year: "2019",
-    pdfUrl: "/pdfs/multi-lidar-placement.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:qxL8FJ1GzNcC"
   },
   {
     title:
@@ -343,7 +343,7 @@ export const conferencePapers = [
     venue:
       "International Conference on Human-Computer Interaction, pp. 344–350, Springer, Cham",
     year: "2019",
-    pdfUrl: "/pdfs/accelerate-ui-development.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:4DMP91E08xMC"
   },
   {
     title:
@@ -353,7 +353,7 @@ export const conferencePapers = [
     venue:
       "International Conference on Human-Computer Interaction, pp. 34–46, Springer, Cham",
     year: "2019",
-    pdfUrl: "/pdfs/hmd-immersive-training.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:Wp0gIr-vW9MC"
   },
   {
     title:
@@ -363,7 +363,7 @@ export const conferencePapers = [
     venue:
       "World Symposium on Digital Intelligence for Systems and Machines DISA 2018, Technical University of Košice",
     year: "2018",
-    pdfUrl: "/pdfs/speech-enabled-vr.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:Se3iqnhoufwC"
   },
   {
     title:
@@ -373,7 +373,7 @@ export const conferencePapers = [
     venue:
       "World Symposium on Digital Intelligence for Systems and Machines DISA 2018, Technical University of Košice",
     year: "2018",
-    pdfUrl: "/pdfs/dual-lidar-analysis.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:UebtZRa9Y70C"
   },
   {
     title:
@@ -383,7 +383,7 @@ export const conferencePapers = [
     venue:
       "Human Factors and Ergonomics Society’s 2018 International Annual Meeting",
     year: "2018",
-    pdfUrl: "/pdfs/pedestrians-receptivity.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:roLk4NBRz8UC"
   },
   {
     title:
@@ -393,7 +393,7 @@ export const conferencePapers = [
     venue:
       "SPIE DCS Defense and Security Program and Symposium, Orlando, FL",
     year: "2018",
-    pdfUrl: "/pdfs/hydra.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:qjMakFHDy7sC"
   },
   {
     title:
@@ -403,7 +403,7 @@ export const conferencePapers = [
     venue:
       "15th International Conference on Emerging eLearning Technologies and Applications (ICETA 2017), The High Tatras, Slovakia",
     year: "2017",
-    pdfUrl: "/pdfs/speech-driven-training.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&authuser=1&citation_for_view=3WO6CtEAAAAJ:d1gkVwhDpl0C"
   }
 ];
 
@@ -414,7 +414,7 @@ export const presentations = [
     authors: "",
     venue: "Digital Innovations, Tupelo, MS",
     year: "2024",
-    pdfUrl: "/pdfs/presentation-digital-innovations.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -422,7 +422,7 @@ export const presentations = [
     authors: "",
     venue: "ISTVS, Montreal, Canada",
     year: "2022",
-    pdfUrl: "/pdfs/presentation-istvs-2022.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -430,7 +430,7 @@ export const presentations = [
     authors: "",
     venue: "GVSETS, Virtual Conference",
     year: "2020",
-    pdfUrl: "/pdfs/presentation-gvsets-2020.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -438,7 +438,7 @@ export const presentations = [
     authors: "",
     venue: "AHFE, San Diego, CA (*Remote)",
     year: "2020",
-    pdfUrl: "/pdfs/presentation-ahfe-2020.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -446,15 +446,15 @@ export const presentations = [
     authors: "",
     venue: "HCII, Orlando, FL (Poster Presentation)",
     year: "2019",
-    pdfUrl: "/pdfs/presentation-hcii-2019.pdf"
+    pdfUrl: ""
   },
   {
     title:
-      "Analysis of Dual LIDAR Placement for Off-Road Autonomy Using MAVS. Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction",
+      "Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction",
     authors: "",
     venue: "DISA, Kosice, Slovakia",
     year: "2018",
-    pdfUrl: "/pdfs/presentation-disa-2018.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -462,7 +462,7 @@ export const presentations = [
     authors: "",
     venue: "HRI, Chicago, IL (Poster Presentation)",
     year: "2018",
-    pdfUrl: "/pdfs/presentation-hri-2018.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:9yKSN-GCB0IC"
   },
   {
     title:
@@ -470,7 +470,7 @@ export const presentations = [
     authors: "",
     venue: "ICETA, High Tatras, Slovakia",
     year: "2017",
-    pdfUrl: "/pdfs/presentation-iceta-2017.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -478,6 +478,6 @@ export const presentations = [
     authors: "",
     venue: "Association of Chiefs of Police Winter Conference, Starkville, MS",
     year: "2017",
-    pdfUrl: "/pdfs/presentation-police-2017.pdf"
+    pdfUrl: ""
   }
 ];
