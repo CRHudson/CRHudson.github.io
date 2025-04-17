@@ -53,7 +53,7 @@ export const journalArticles = [
       "Carruth, D., Goodin, C., Dabbiru, L., Scherrer, N., Moore, M., Hudson, C. R., Cagle, L., Jayakumar, P.",
     venue: "Journal of Field Robotics",
     year: "2022",
-    pdfUrl: "/pdfs/measuring-influence.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:JV2RwH3_ST0C"
   },
   {
     title:
@@ -160,7 +160,7 @@ export const conferenceAbstracts = [
     venue:
       "Military Operations Research Society (MORS) 86th annual symposium, Monterey, CA; Naval Postgraduate School",
     year: "2018",
-    pdfUrl: "/pdfs/test-operation-procedures.pdf"
+    pdfUrl: ""
   },
   {
     title:
@@ -170,7 +170,7 @@ export const conferenceAbstracts = [
     venue:
       "Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction. ACM",
     year: "2018",
-    pdfUrl: "/pdfs/stress-factors.pdf"
+    pdfUrl: ""
   }
 ];
 
@@ -183,7 +183,7 @@ export const conferencePapers = [
     venue:
       "ASAS Southern Section",
     year: "2024",
-    pdfUrl: "/pdfs/livestock-management.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:hMod-77fHWUC"
   },
   {
     title:
@@ -193,7 +193,7 @@ export const conferencePapers = [
     venue:
       "Journal of Animal Science, 102(Supplement_3)",
     year: "2024",
-    pdfUrl: "/pdfs/automated-identification.pdf"
+    pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:blknAaTinKkC"
   },
   {
     title:
