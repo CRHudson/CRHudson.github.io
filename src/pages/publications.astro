@@ -14,7 +14,7 @@ function groupByYear(arr) {
   return arr.reduce((acc, pub) => {
     const year = pub.year;
     (acc[year] ||= []).push(pub);
-    return acc;
+    return acc;s
   }, {});
 }
 
@@ -32,7 +32,7 @@ const sortYearsDesc = (a, b) => parseInt(b) - parseInt(a);
 <BaseLayout title="Publications" sideBarActiveItemID="publications">
   <div class="mb-5">
     <div class="text-3xl font-bold">Publications</div>
-    <div class="text-sm">h‑index: 15  i10‑index: 21</div>
+    <div class="text-sm">h‑index: 15  i10‑index: 20</div>
   </div>
 
   {/* Journal Articles */}
