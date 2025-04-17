@@ -416,42 +416,36 @@ export const presentations = [
   {
     title:
       "Forest Traversal Speed Made Good Prediction Models, Simulation vs. Analytical Approaches",
-    authors: "",
     venue: "ISTVS, Montreal, Canada",
     year: "2022"
   },
   {
     title:
       "Mississippi State University Autonomous Vehicle Simulation Library",
-    authors: "",
     venue: "GVSETS, Virtual Conference",
     year: "2020"
   },
   {
     title:
       "Using VR Generated Pedestrian Behaviors in Autonomous Vehicle Simulations",
-    authors: "",
     venue: "AHFE, San Diego, CA (*Remote)",
     year: "2020"
   },
   {
     title:
       "Using Simulation to Accelerate Development of User Interfaces for Autonomous Vehicles",
-    authors: "",
     venue: "HCII, Orlando, FL (Poster Presentation)",
     year: "2019"
   },
   {
     title:
       "Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction",
-    authors: "",
     venue: "DISA, Kosice, Slovakia",
     year: "2018"
   },
   {
     title:
       "Stress Factors that Impact Robot Operator Control in High-Stress Dynamic Scenarios",
-    authors: "",
     venue: "HRI, Chicago, IL (Poster Presentation)",
     year: "2018",
     pdfUrl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3WO6CtEAAAAJ&cstart=20&pagesize=80&authuser=1&citation_for_view=3WO6CtEAAAAJ:9yKSN-GCB0IC"
@@ -459,14 +453,12 @@ export const presentations = [
   {
     title:
       "Development of a Training Tool for Speech Driven Human-Robot Interaction Applications",
-    authors: "",
     venue: "ICETA, High Tatras, Slovakia",
     year: "2017"
   },
   {
     title:
       "Presented Research Applications in Human-Robot Interaction at the Mississippi Association of Chiefs of Police Winter Conference",
-    authors: "",
     venue: "Association of Chiefs of Police Winter Conference, Starkville, MS",
     year: "2017"
   }
