@@ -26,23 +26,23 @@ const grouped = {
   talks: groupByYear(presentations),
 };
 
-const sortYearsDesc = (a, b) => parseInt(b, 10) - parseInt(a, 10);
+const sortYearsDesc = (a, b) => parseInt(b) - parseInt(a);
 ---
 
 <BaseLayout title="Publications" sideBarActiveItemID="publications">
-  <div class="mb-8">
-    <h1 class="text-4xl font-bold">Publications</h1>
-    <p class="mt-2 text-gray-600">h‑index: 15  i10‑index: 21</p>
+  <div class="mb-5">
+    <div class="text-3xl font-bold">Publications</div>
+    <div class="text-sm">h‑index: 15  i10‑index: 21</div>
   </div>
 
-  <!-- Journal Articles -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">Journal Articles</h2>
-    {Object.keys(grouped.journal).sort(sortYearsDesc).map((year) => (
-      <div key={year} class="mb-8">
+  {/* Journal Articles */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Journal Articles</h2>
+    {Object.keys(grouped.journal).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
         <h3 class="text-xl font-bold mb-2">{year}</h3>
         <div class="grid grid-cols-1 gap-4">
-          {grouped.journal[year].map((pub) => (
+          {grouped.journal[year].map(pub => (
             <PublicationCard publication={pub} />
           ))}
         </div>
@@ -50,14 +50,14 @@ const sortYearsDesc = (a, b) => parseInt(b, 10) - parseInt(a, 10);
     ))}
   </section>
 
-  <!-- Book Chapters -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">Book Chapters</h2>
-    {Object.keys(grouped.books).sort(sortYearsDesc).map((year) => (
-      <div key={year} class="mb-8">
+  {/* Book Chapters */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Book Chapters</h2>
+    {Object.keys(grouped.books).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
         <h3 class="text-xl font-bold mb-2">{year}</h3>
         <div class="grid grid-cols-1 gap-4">
-          {grouped.books[year].map((pub) => (
+          {grouped.books[year].map(pub => (
             <PublicationCard publication={pub} />
           ))}
         </div>
@@ -65,14 +65,14 @@ const sortYearsDesc = (a, b) => parseInt(b, 10) - parseInt(a, 10);
     ))}
   </section>
 
-  <!-- Conference Abstracts -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">Peer‑Reviewed Conference Abstracts</h2>
-    {Object.keys(grouped.abstracts).sort(sortYearsDesc).map((year) => (
-      <div key={year} class="mb-8">
+  {/* Conference Abstracts */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Peer‑Reviewed Conference Abstracts</h2>
+    {Object.keys(grouped.abstracts).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
         <h3 class="text-xl font-bold mb-2">{year}</h3>
         <div class="grid grid-cols-1 gap-4">
-          {grouped.abstracts[year].map((pub) => (
+          {grouped.abstracts[year].map(pub => (
             <PublicationCard publication={pub} />
           ))}
         </div>
@@ -80,14 +80,14 @@ const sortYearsDesc = (a, b) => parseInt(b, 10) - parseInt(a, 10);
     ))}
   </section>
 
-  <!-- Conference Papers -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">Peer‑Reviewed Conference Papers</h2>
-    {Object.keys(grouped.papers).sort(sortYearsDesc).map((year) => (
-      <div key={year} class="mb-8">
+  {/* Conference Papers */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Peer‑Reviewed Conference Papers</h2>
+    {Object.keys(grouped.papers).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
         <h3 class="text-xl font-bold mb-2">{year}</h3>
         <div class="grid grid-cols-1 gap-4">
-          {grouped.papers[year].map((pub) => (
+          {grouped.papers[year].map(pub => (
             <PublicationCard publication={pub} />
           ))}
         </div>
@@ -95,14 +95,14 @@ const sortYearsDesc = (a, b) => parseInt(b, 10) - parseInt(a, 10);
     ))}
   </section>
 
-  <!-- Presentations -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">Oral & Poster Presentations</h2>
-    {Object.keys(grouped.talks).sort(sortYearsDesc).map((year) => (
-      <div key={year} class="mb-8">
+  {/* Presentations */}
+  <section class="mb-10">
+    <h2 class="font-semibold text-2xl mb-4">Oral & Poster Presentations</h2>
+    {Object.keys(grouped.talks).sort(sortYearsDesc).map(year => (
+      <div key={year} class="mb-6">
         <h3 class="text-xl font-bold mb-2">{year}</h3>
         <div class="grid grid-cols-1 gap-4">
-          {grouped.talks[year].map((pub) => (
+          {grouped.talks[year].map(pub => (
             <PublicationCard publication={pub} clickable={false} />
           ))}
         </div>
