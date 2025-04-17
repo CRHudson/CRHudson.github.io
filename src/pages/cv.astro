@@ -97,8 +97,8 @@ import {
       <h3 class="font-semibold text-xl mb-4">Oral and Poster Presentations</h3>
       <div class="grid md:grid-cols-1 gap-4">
         {presentations.map((pub) => (
-          <PublicationCard publication={pub} />
-        ))}
+  <PublicationCard publication={pub} clickable={false} />
+))}
       </div>
     </div>
   </div>
