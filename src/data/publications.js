@@ -159,8 +159,7 @@ export const conferenceAbstracts = [
       "Mason, G. L., Carruth, D. W., Hudson, C. R., Jones, R. A., Cole, M. P., Smith, W., Jayakumar, P.",
     venue:
       "Military Operations Research Society (MORS) 86th annual symposium, Monterey, CA; Naval Postgraduate School",
-    year: "2018",
-    pdfUrl: ""
+    year: "2018"
   },
   {
     title:
@@ -169,8 +168,7 @@ export const conferenceAbstracts = [
       "Hudson, C. R., Bethel, C. L.",
     venue:
       "Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction. ACM",
-    year: "2018",
-    pdfUrl: ""
+    year: "2018"
   }
 ];
 
@@ -413,48 +411,42 @@ export const presentations = [
       "Conquering Off-Road Autonomy: Exploring the Technology behind Mississippi State University’s Off-road Autonomous Ground Vehicles",
     authors: "",
     venue: "Digital Innovations, Tupelo, MS",
-    year: "2024",
-    pdfUrl: ""
+    year: "2024"
   },
   {
     title:
       "Forest Traversal Speed Made Good Prediction Models, Simulation vs. Analytical Approaches",
     authors: "",
     venue: "ISTVS, Montreal, Canada",
-    year: "2022",
-    pdfUrl: ""
+    year: "2022"
   },
   {
     title:
       "Mississippi State University Autonomous Vehicle Simulation Library",
     authors: "",
     venue: "GVSETS, Virtual Conference",
-    year: "2020",
-    pdfUrl: ""
+    year: "2020"
   },
   {
     title:
       "Using VR Generated Pedestrian Behaviors in Autonomous Vehicle Simulations",
     authors: "",
     venue: "AHFE, San Diego, CA (*Remote)",
-    year: "2020",
-    pdfUrl: ""
+    year: "2020"
   },
   {
     title:
       "Using Simulation to Accelerate Development of User Interfaces for Autonomous Vehicles",
     authors: "",
     venue: "HCII, Orlando, FL (Poster Presentation)",
-    year: "2019",
-    pdfUrl: ""
+    year: "2019"
   },
   {
     title:
       "Implementation of a Speech Enabled Virtual Reality Training Tool for Human-Robot Interaction",
     authors: "",
     venue: "DISA, Kosice, Slovakia",
-    year: "2018",
-    pdfUrl: ""
+    year: "2018"
   },
   {
     title:
@@ -469,15 +461,13 @@ export const presentations = [
       "Development of a Training Tool for Speech Driven Human-Robot Interaction Applications",
     authors: "",
     venue: "ICETA, High Tatras, Slovakia",
-    year: "2017",
-    pdfUrl: ""
+    year: "2017"
   },
   {
     title:
       "Presented Research Applications in Human-Robot Interaction at the Mississippi Association of Chiefs of Police Winter Conference",
     authors: "",
     venue: "Association of Chiefs of Police Winter Conference, Starkville, MS",
-    year: "2017",
-    pdfUrl: ""
+    year: "2017"
   }
 ];
