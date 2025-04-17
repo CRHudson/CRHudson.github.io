@@ -34,7 +34,21 @@ const {
           </main>
         </div>
 
-        
+        <Footer />
+
+        {/* PDF Download Link for CV Page */}
+        {sideBarActiveItemID === "cv" && (
+          <div class="px-4 pb-5 pt-1 flex justify-center bg-base-200">
+            <a
+              href="/resume.pdf"
+              download
+              class="text-blue-600 hover:underline"
+            >
+              Download CV (PDF)
+            </a>
+          </div>
+        )}
+      </div>
 
       {includeSidebar && <SideBar sideBarActiveItemID={sideBarActiveItemID} />}
     </div>
