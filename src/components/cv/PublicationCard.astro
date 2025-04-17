@@ -2,10 +2,11 @@
 // src/components/cv/PublicationCard.astro
 const { publication } = Astro.props;
 ---
+
 <a href={publication.pdfUrl} target="_blank" class="block border rounded-lg p-4 hover:shadow-lg hover:bg-gray-50 transition">
   <h3 class="text-xl font-semibold mb-1">{publication.title}</h3>
   <p class="text-xs text-gray-600 mb-1">
-    {publication.journal} {publication.year ? `(${publication.year})` : ""}
+    {publication.venue}{publication.year ? ` (${publication.year})` : ""}
   </p>
   <p class="text-sm text-gray-800">
     Authors: <strong>{publication.authors}</strong>
