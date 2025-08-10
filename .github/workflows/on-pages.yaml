@@ -1,27 +1,39 @@
 name: on-pages
-run-name: on pages deploy
-
 on:
-  workflow_run:
-    workflows: [pages-build-deployment]
-    types:
-      - completed
-    branches:
-      - gh-pages
-
-  # run if user manually requests it
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  update-url:
-    # only run on user instance of template, not template itself
-    if: github.repository != 'greenelab/lab-website-template'
-    uses: ./.github/workflows/update-url.yaml
-
   build-site:
-    needs: update-url
-    if: needs.update-url.outputs.changed == 'true'
-    uses: ./.github/workflows/build-site.yaml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - run: bundle install --path vendor/bundle
+      - run: bundle exec jekyll build --trace
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build-site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
